@@ -1,60 +1,60 @@
-body{
-    margin-left: 3%;
+body {
+  margin-left: 3%;
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
+.content {
+  display: flex;
+  flex-direction: row;
 }
 
-.left{
-    width: 270px;
-    padding-left: 50px;
+.left {
+  width: 270px;
+  padding-left: 50px;
 }
 
-.refresh{
-    width: 100px;
-    height: 20px;
-    position: relative;
-    left: 30px;
-    top: 24px;
-    border: 2px solid black;
+.refresh {
+  width: 100px;
+  height: 20px;
+  position: relative;
+  left: 30px;
+  top: 24px;
+  border: 2px solid black;
 }
 
-.display{
-    border: 2px solid black;
-    position: relative;
-    top: -16px;
+.display {
+  border: 2px solid black;
+  position: relative;
+  top: -16px;
 }
 
 .display li {
-    list-style: none;
-    left: -40px;
-    position: relative;
-    width: 266px;
+  list-style: none;
+  left: -40px;
+  position: relative;
+  width: 266px;
 }
 
-.items{
-    position: relative;
-    margin-left: 10px;
+.items {
+  position: relative;
+  margin-left: 10px;
 }
 
 .display li:nth-child(even) {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
-.score{
-    margin-left: 150px;
+.score {
+  margin-left: 150px;
 }
 
-input{
-    margin-bottom: 20px;
-    display: block;
-    border: 2px solid;
+input {
+  margin-bottom: 20px;
+  display: block;
+  border: 2px solid;
 }
 
-.submit{
-    float: right;
-    position: relative;
-    border: 2px solid black;
+.submit {
+  float: right;
+  position: relative;
+  border: 2px solid black;
 }

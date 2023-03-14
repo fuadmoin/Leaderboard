@@ -10,16 +10,17 @@
     <header><h1>Leaderboard</h1></header>
     <section class="content">
       <article class="left">
-        <div class="header">
-          <h3>Recent scores</h3>
+        <div class="header content">
+          <h2>Recent scores</h2>
           <button type="button" class="refresh">Refresh</button>
         </div>
-        <div class="display"></div>
+        <ul class="display"></ul>
       </article>
       <form class="score">
-        <label><h3>Add your score</h3></label>
-        <input type="text" class="yourName" />
-        <input type="number" class="yourScore" />
+        <label><h2>Add your score</h2></label>
+        <input placeholder="Your name" type="text" class="yourName" />
+        <input placeholder="Your score" type="number" class="yourScore" />
+        <button class="submit" type="submit">Submit</button>
       </form>
     </section>
   </body>
