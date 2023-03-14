@@ -8,12 +8,8 @@ body{
 }
 
 .left{
-    width: 500px;
+    width: 270px;
     padding-left: 50px;
-}
-
-.header{
-    
 }
 
 .refresh{
@@ -27,9 +23,23 @@ body{
 
 .display{
     border: 2px solid black;
+    position: relative;
+    top: -16px;
 }
 
-.display li:nth-child(odd) {
+.display li {
+    list-style: none;
+    left: -40px;
+    position: relative;
+    width: 266px;
+}
+
+.items{
+    position: relative;
+    margin-left: 10px;
+}
+
+.display li:nth-child(even) {
     background-color: darkgray;
 }
 
@@ -39,11 +49,12 @@ body{
 
 input{
     margin-bottom: 20px;
+    display: block;
+    border: 2px solid;
 }
 
 .submit{
     float: right;
-    right: 48px;
     position: relative;
     border: 2px solid black;
 }
