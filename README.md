@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Title</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**To Do List** is a simple project to add tasks that we want to do and mark them as done when complete.
+**Leaderboard** is a simple project that accepts a name and a score from the user and display the data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,12 +44,6 @@
 
 - **html styled with css and javascript**
 - **uses webpack**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"> </a>
-
-> Check out the live demo for this project [here.](https://fuadmoin.github.io/TODOLIST/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,13 +73,13 @@ VS CODE
 ### Usage <a name="usage"></a>
 
 ```
-  code .
-  open the index file with live server
+  $ npm install
+  $ npm start
 ```
 
 ### Run tests <a name="run-tests"></a>
 
-change the value of the index to see if the order of the task is being changed.
+After you open it in a live server try to add and see if it displays the input.
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
@@ -105,15 +99,14 @@ You can deploy this project using Github-Page.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[users will be able to input tasks]**
-- [ ] **[tasks will be displayed based on their order]**
-- [ ] **[users will be able to delete tasks that are completed]**
+- [ ] **[more styling will be done]**
+- [ ] **[interacton with api will be implemented]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, [issues](), and feature requests are welcome!
+Contributions, [issues](https://github.com/fuadmoin/Leaderboard/issues), and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +118,7 @@ If you like this project please consider starring it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner [@Baqar]() for helping me on this project with me.
+I would like to thank [Microverse](https://www.microverse.org/) for giving me this chance to work on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
