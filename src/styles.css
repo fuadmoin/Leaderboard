@@ -1,0 +1,49 @@
+body{
+    margin-left: 3%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 500px;
+    padding-left: 50px;
+}
+
+.header{
+    
+}
+
+.refresh{
+    width: 100px;
+    height: 20px;
+    position: relative;
+    left: 30px;
+    top: 24px;
+    border: 2px solid black;
+}
+
+.display{
+    border: 2px solid black;
+}
+
+.display li:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.score{
+    margin-left: 150px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.submit{
+    float: right;
+    right: 48px;
+    position: relative;
+    border: 2px solid black;
+}
