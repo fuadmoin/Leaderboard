@@ -7,9 +7,9 @@ const name = document.querySelector('.yourName');
 const score = document.querySelector('.yourScore');
 const refresh = document.querySelector('.refresh');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
-  createGame();
+  await createGame();
   const board = new Leaderboard(name.value, score.value);
   if (name.value !== '' && score.value !== '') {
     Leaderboard.add(board);
