@@ -32,7 +32,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a simple project that accepts a name and a score from the user and display the data.
+**Leaderboard** is a simple project that accepts a name and a score from the user, then calls a leaderboard api service to store and fetch data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +44,7 @@
 
 - **html styled with css and javascript**
 - **uses webpack**
+- **uses API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
