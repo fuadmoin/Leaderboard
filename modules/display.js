@@ -1,12 +1,22 @@
-const displayAll = () => {
-  const scores = JSON.parse(window.localStorage.getItem('scores')) || [];
+import gameID from './gameID.js';
+
+const displayAll = async () => {
+  const id = gameID();
+  const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+  const result = await response.json();
+
   const ul = document.querySelector('.display');
   ul.innerHTML = '';
-  for (let i = 0; i < scores.length; i += 1) {
+  for (let i = 0; i < result.result.length; i += 1) {
     const node = document.createElement('li');
     node.innerHTML = `
-     <span class="items">${scores[i].name}</span>
-     <span class="items">${scores[i].number}</span>
+     <span class="items">${result.result[i].user}</span>
+     <span class="items">${result.result[i].score}</span>
      `;
     ul.append(node);
   }
