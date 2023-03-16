@@ -45,6 +45,13 @@
 - **html styled with css and javascript**
 - **uses webpack**
 - **uses API**
+- **mobile and desktop version available**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"> </a>
+
+> Check out the live demo for this project [here.](https://fuadmoin.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +108,6 @@ You can deploy this project using Github-Page.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[more styling will be done]**
-- [ ] **[interacton with api will be implemented]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

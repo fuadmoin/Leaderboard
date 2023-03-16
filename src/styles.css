@@ -13,22 +13,25 @@ body {
   padding-top: 4%;
   width: 80%;
 }
-header{
-    left: 5%;
-    position: relative;
-    top: 35px;
+
+header {
+  left: 5%;
+  position: relative;
+  top: 35px;
 }
+
 .left {
   width: 95%;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    position: relative;
-    left: 30px;
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  position: relative;
+  left: 30px;
 }
+
 .refresh {
   width: 100px;
   height: 30px;
@@ -41,7 +44,7 @@ header{
 .display {
   border: 2px solid black;
   position: relative;
-  left:30px;
+  left: 30px;
   width: 270px;
   top: 10px;
 }
@@ -51,22 +54,17 @@ header{
   left: -40px;
   position: relative;
   width: 306px;
-  
- 
 }
 
 .items {
   position: relative;
   margin-left: 10px;
-
 }
 
-.names{
-   display: inline-block;
-   width: 200px;
+.names {
+  display: inline-block;
+  width: 200px;
 }
-
-
 
 .display li:nth-child(even) {
   background-color: darkgray;
@@ -86,74 +84,75 @@ input {
 }
 
 .submit {
- left: 40%;
+  left: 40%;
   position: relative;
   border: 2px solid black;
 }
 
 .footer {
-    position: relative;
-    height: 30px;
-    width: 97%;
-    top:50px;
-    border: 2px solid;
-    
+  position: relative;
+  height: 30px;
+  width: 97%;
+  top: 50px;
+  border: 2px solid;
 }
+
 .footer span {
-    position: relative;
-    left: 30px;
-    top: 3px;
+  position: relative;
+  left: 30px;
+  top: 3px;
 }
+
 button {
-    font-size: medium;
-    height: 30px;
+  font-size: medium;
+  height: 30px;
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: aquamarine;
+button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
 }
 
-::placeholder{
-    position: relative;
-    left: 10px;
-    font-style: italic;
+::placeholder {
+  position: relative;
+  left: 10px;
+  font-style: italic;
 }
 
+@media (min-width: 700px) and (max-width: 960px) {
+  .left {
+    width: 90%;
+  }
 
-@media (min-width: 700px) and (max-width: 960px){
-.left {
-  width: 90%;
+  .content {
+    flex-direction: row;
+  }
+
+  .score {
+    margin-left: 15%;
+  }
 }
 
-.content {
-  flex-direction: row;
-}
+@media (min-width: 961px) {
+  .content {
+    flex-direction: row;
+    padding-left: 15%;
+    width: 60%;
+  }
 
-.score {
-  margin-left: 15%;
-}
-}
+  .left {
+    width: 90%;
+    padding-left: 50px;
+  }
 
-@media (min-width: 961px){
-
-    .content {
-  flex-direction: row;
-  padding-left: 15%;
-  width: 60%;
-}
-.left {
-  width: 90%;
-  padding-left: 50px;
-}
-.submit {
+  .submit {
     position: relative;
     float: left;
     left: 200px;
-}
+  }
 
-header {
+  header {
     text-align: center;
     width: 90%;
-}
+  }
 }
