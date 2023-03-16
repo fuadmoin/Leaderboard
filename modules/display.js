@@ -15,8 +15,8 @@ const displayAll = async () => {
   for (let i = 0; i < result.result.length; i += 1) {
     const node = document.createElement('li');
     node.innerHTML = `
-     <span class="items">${result.result[i].user}</span>
-     <span class="items">${result.result[i].score}</span>
+     <span class="items names">${result.result[i].user}</span>
+     <span class="items scoreresult">${result.result[i].score}</span>
      `;
     ul.append(node);
   }
