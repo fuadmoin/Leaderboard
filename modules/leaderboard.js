@@ -3,8 +3,8 @@ import displayAll from './display.js';
 
 export default class Leaderboard {
   constructor(name, number) {
-    this.name = name;
-    this.number = number;
+    this.user = name;
+    this.score = number;
   }
 
   static add(data) {
